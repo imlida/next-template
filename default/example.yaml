@@ -1,0 +1,5 @@
+path: "@{pathname}/src"
+name: "@{filename}.js"
+desc: "这是描述"
+code: |
+  console.log('Hello, World');
