@@ -1,5 +1,5 @@
-path: "@{pathname}/src"
-name: "@{filename}.js"
+path: "@{var}/src"
+name: "@{var}.js"
 desc: "这是描述"
 code: |
-  console.log('Hello, World');
+  console.log('@{name}, Hello World');
