@@ -1,5 +1,5 @@
-path: "src/app/api/@{var}"
-name: "route.js"
+path: "src/app/api/v1/@{var}"
+name: "route.ts"
 desc: "NEXT.JS API 路由"
 code: |
   import { type NextRequest } from 'next/server'
