@@ -1,0 +1,35 @@
+path: "src/app/api/@{var}"
+name: "route.js"
+desc: "NEXT.JS API 路由"
+code: |
+  import { type NextRequest } from 'next/server'
+
+  export function GET(request: NextRequest) {
+    return new Response('Hello, GET!', {
+      status: 200
+    })
+  }
+
+  export function POST(request: NextRequest) {
+    return new Response('Hello, POST!', {
+      status: 200
+    })
+  }
+
+  export function PUT(request: NextRequest) {
+    return new Response('Hello, PUT!', {
+      status: 200
+    })
+  }
+
+  export function PATCH(request: NextRequest) {
+    return new Response('Hello, PATCH!', {
+      status: 200
+    })
+  }
+
+  export function DELETE(request: NextRequest) {
+    return new Response('Hello, DELETE!', {
+      status: 200
+    })
+  }
