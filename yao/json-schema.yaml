@@ -1,5 +1,5 @@
 path: ".vscode"
-name: "settings-online.json"
+name: "settings.json"
 desc: "导入yao json-schema"
 code: |
   {
